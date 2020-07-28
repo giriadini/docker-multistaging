@@ -26,9 +26,9 @@ Solution:
 
           Modified existing docker file to support multi staging.
 
-1. Built a base image.
+     1. Built a base image.
 
-2. Used From Scratch for building top layer image.
+     2. Used From Scratch for building top layer image.
  
           Reference:https://hub.docker.com/_/scratch/
 
