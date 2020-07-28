@@ -13,7 +13,7 @@ Solution:
 
      1. Remove the environment variable GO111MODULE - which is not used.
 
-2. Debugging and 
+2. Debugging and build the image. 
 
           1. For more control over the server's behaviour, custom servers is added in the application (main.go), fixed issue by removing specific ip, just provided only the port .
               Reference: https://golang.org/pkg/net/http/
@@ -24,7 +24,7 @@ Solution:
 
 3. MultiStaging:
 
-Modified existing docker file to support multi staging.
+          Modified existing docker file to support multi staging.
 
 1. Built a base image.
 
