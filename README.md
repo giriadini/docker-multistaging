@@ -15,7 +15,7 @@ Solution:
 
 2. Initial Image build:
 
-For more control over the server's behaviour, custom servers is added in the application (main.go), fixed issue by binding the port to all IP's,  just provided only the port .
+          For more control over the server's behaviour, custom servers is added in the application (main.go), fixed issue by binding the port to all IP's,      just provided only the port .
               Reference: https://golang.org/pkg/net/http/
 
 size of the image : 422 MB
@@ -46,4 +46,4 @@ Run:
 
 Test:
 =====  
-         curl http://localhost:8000
+        curl http://localhost:8000
